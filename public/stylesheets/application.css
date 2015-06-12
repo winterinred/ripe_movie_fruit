@@ -1,0 +1,133 @@
+body {
+  background-image: url("/images/movie_projector1.JPG");
+  background-size: cover;
+}
+
+.navbar {
+  background-color:rgba(127,198,235, 0.2)
+}
+
+.logintag {
+width:140px;
+display: inline-block;
+text-align: right;
+font-family: 'Montserrat', sans-serif;
+font-size:13px;
+color:white;
+}
+
+.logininput {
+  width:140px;
+  font-size:13px;
+}
+
+.login {
+  background-color:lightgreen;
+  border:2px solid grey;
+  border-radius:10px 10px 0 0;
+  width:370px;
+  padding-bottom:25px;
+}
+
+.signup {
+  border-radius:10px;
+  width:370px;
+  display: table;
+  padding-bottom:25px;
+  margin-top:150px;
+  background-color:rgba(127,198,235, 0.3);
+}
+
+
+
+button {
+  font-size:14px;
+  border-radius:10px;
+  background-color:white;
+  
+}
+
+button:hover {
+  background-color:lightblue;
+}
+
+.remember {
+  margin-left:42px;
+}
+
+
+.login h2 {
+  color:pink;
+  text-align:center;
+  background-color:green;
+  margin-top:-1px;
+  border-radius:10px 10px 0 0;
+  font-size:2.5em;
+  font-family:"Lobster", cursive;
+}
+
+.signup h2 {
+  color:white;
+  text-align:center;
+  margin-top:-1px;
+  border-radius:10px 10px 0 0;
+  font-size:2.5em;
+  font-family:"Lobster", cursive;
+}
+
+h1 {
+  font-family:"Lobster", cursive;
+  color:white;
+}
+
+.footer {
+  clear:both;
+  font-size:2em;
+  color:lightblue;
+}
+
+.movie h1 {
+  font-family:"Lobster", cursive;
+  font-size:4em;
+  color:white;
+}
+
+.movie h5 {
+  text-align:left;
+}
+.movie {
+  font-family:'Montserrat', sans-serif;
+  color:rgb(208,208,208);
+  text-align:center;
+  display: table;
+  background-color:rgba(127,198,235, 0.4);
+  border-radius:15px;
+  margin-bottom:50px;
+  margin-top:25px;
+}
+
+.movie_list {
+  font-family:"Monsterrat", sans-serif;
+  font-size:2em;
+  list-style-type:none;
+}
+
+img.movie_list_posters {
+  height:300px;
+  width:198px;
+  float:left;
+}
+
+.movie_poster {
+  padding: 0, 0, 0 ,0;
+  max-width:50%;
+  max-height:50%;
+}
+
+.list-inline {
+  float: left;
+}
+
+.list-inline li {
+  padding:;
+}

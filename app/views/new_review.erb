@@ -1,0 +1,17 @@
+<div class="col-sm-offset-4 col-sm-4">
+  <div class="signup">  
+  <h2>Add A Review</h2><br>
+    <form action="/movies/<%=@movie.id%>/reviews/create" method="POST">
+      <label class="logintag">Title:</label>
+      <strong><%= @movie.title %></strong>
+      <br><br>
+      <label class="logintag">Rating:</label>
+      <input class="logininput" name="rating" type="integer" placeholder="0-100">
+      <br><br>
+      <!--added 2 blank labels below for spacing-->
+      <label class="logintag"></label><br>
+      <label class="logintag"></label>
+      <button type="submit">Add Review</button>
+    </form>
+    </div>
+  </div>

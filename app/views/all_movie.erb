@@ -1,0 +1,8 @@
+<ul class="movie_list">
+<% @movies.each do |movie| %>
+<li> <a href="/movies/<%= movie.id %>"><img class="movie_list_posters" src="/images/<%= movie.id %>.jpg"></a></li>
+  
+ <% end %>
+ </ul>
+
+  

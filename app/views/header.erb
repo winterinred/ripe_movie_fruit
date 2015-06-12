@@ -1,0 +1,25 @@
+<nav class="navbar navbar-inverse">
+  <p class="navbar-text navbar-left" style="color:white">
+          <% if current_user %>
+          <%= current_user.username %>, you are signed in.
+          <% else %>
+          Signed Out
+          <% end %>
+          <% if current_user %>
+          <a href="/logout">Log Out</a>
+          <% end %>
+          </p>
+    <form class="navbar-form navbar-right" action="/movies/search" method="GET" role="search">
+      <div class="form-group">
+          <ul class="list-inline">
+          <li><a href="/edit_profile"><button type="button">Edit Profile</button></a></li>
+          <li><a href ="/movies/new"><button type="button">Add A Movie</button></a></li>
+          <li><a href="/movies"><button type="button">All Movies</button></a></li>
+          </ul>
+        <input type="text" name="title" placeholder="Search A Movie">
+        <button type="submit" class="btn btn-default">Go</button>
+      </div>
+    </form>
+</nav>
+
+

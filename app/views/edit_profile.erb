@@ -1,0 +1,26 @@
+ <div class="col-sm-offset-4 col-sm-4">
+    <div class="signup">
+    <h2>Edit Your Profile</h2><br>
+      <form action="/profile" method="POST">
+        <label class="logintag">First Name:</label>
+        <input class="logininput" name="firstname" type="text" placeholder="<%= current_user.first_name %>">
+        <br><br>
+        <label class="logintag">Last Name:</label>
+        <input class="logininput" name="lastname" type="text" placeholder="<%=current_user.last_name%>">
+        <br><br>
+        <label class="logintag">Username:</label>
+        <input class="logininput" name="username" type="text" placeholder="<%=current_user.username%>">
+        <br><br>
+        <label class="logintag">Email:</label>
+        <input class="logininput" name="email" type="text" placeholder="<%=current_user.email%>">
+        <br><br>
+        <label class="logintag">Password:</label>
+        <input class="logininput" name="password" type="password" placeholder="password">
+        <br><br>
+        <!--added 2 blank labels below for spacing-->
+        <label class="logintag"></label><br>
+        <label class="logintag"></label>
+        <button type="submit">Update</button>
+      </form>
+    </div>
+  </div>

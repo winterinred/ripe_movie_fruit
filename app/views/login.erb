@@ -1,0 +1,35 @@
+<nav class="navbar navbar-fixed-top">
+  <form class="navbar-form navbar-left" action="/login" method="POST" role="search">
+    <div class="form-group">
+      <input type="text" name="username_or_email" placeholder="Username/Email">
+      <input type="password" name="password" placeholder="Password">
+    </div>
+    <button type="submit" class="btn btn-default">Sign in</button>
+  </form>
+  </nav>
+  <div class="col-sm-offset-4 col-sm-4">
+  <div class="signup">  
+  <h2>Sign Up!</h2><br>
+    <form action="/signup" method="POST">
+      <label class="logintag">First Name:</label>
+      <input class="logininput" name="firstname" type="text" placeholder="John">
+      <br><br>
+      <label class="logintag">Last Name:</label>
+      <input class="logininput" name="lastname" type="text" placeholder="Smith">
+      <br><br>
+      <label class="logintag">Username:</label>
+      <input class="logininput" name="username" type="text" placeholder="Username">
+      <br><br>
+      <label class="logintag">Email:</label>
+      <input class="logininput" name="email" type="text" placeholder="name@email.ca">
+      <br><br>
+      <label class="logintag">Password:</label>
+      <input class="logininput" name="password" type="password" placeholder="password">
+      <br>
+      <!--added 2 blank labels below for spacing-->
+      <label class="logintag"></label><br>
+      <label class="logintag"></label>
+      <button type="submit">Join</button>
+    </form>
+    </div>
+  </div>

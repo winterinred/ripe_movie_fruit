@@ -1,0 +1,14 @@
+<nav class="navbar navbar-fixed-bottom">
+  <form class="navbar-form navbar-right" action="/movies/search" method="GET" role="search">
+    <div class="form-group">
+      <a href="/movies">All Movies</a>
+      <input type="text" name="title" placeholder="Search A Movie">
+    </div>
+    <button type="submit" class="btn btn-default">Go</button>
+  </form>
+  </nav>
+  <p class="footer">
+<% if current_user %>
+  <a href="/logout">Log Out</a>
+<% end %>
+</p>

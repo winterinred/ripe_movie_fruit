@@ -1,0 +1,26 @@
+<div class="col-sm-offset-4 col-sm-4">
+  <div class="signup">  
+  <h2>Add A Movie</h2><br>
+    <form action="/movies/create" method="POST">
+      <label class="logintag">Title:</label>
+      <input class="logininput" name="title" type="string" placeholder="Movie">
+      <br><br>
+      <label class="logintag">Release Date:</label>
+      <input class="logininput" name="release_date" type="datetime" placeholder="Release Date">
+      <br><br>
+      <label class="logintag">Genre:</label>
+      <input class="logininput" name="genre" type="string" placeholder="Genre">
+      <br><br>
+      <label class="logintag">Director:</label>
+      <input class="logininput" name="director" type="string" placeholder="Director">
+      <br><br>
+      <label class="logintag">Synopsis:</label>
+      <textarea class"logininput" name="synopsis" type="text" rows="4" placeholder="Write movie synopsis here"></textarea>
+      <br>
+      <!--added 2 blank labels below for spacing-->
+      <label class="logintag"></label><br>
+      <label class="logintag"></label>
+      <button type="submit">Add</button>
+    </form>
+    </div>
+  </div>

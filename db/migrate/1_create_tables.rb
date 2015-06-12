@@ -16,6 +16,7 @@ class CreateTables < ActiveRecord::Migration
       t.string :genre
       t.string :director
       t.text :synopsis
+      t.float :average_review
       t.timestamps
     end
 

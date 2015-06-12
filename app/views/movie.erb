@@ -1,0 +1,14 @@
+<div class="col-sm-offset-4 col-sm-4">
+  <div class="movie">
+    <h1><%= @movie.title %></h1>
+    <img style="width:50%; height:50%" src="/images/<%=@movie.id%>.jpg">
+    <h4>(<%= @movie.release_date.strftime("%m/%d/%Y") %>)</h4>
+    <h4>Director: <%= @movie.director %></h4>
+    <h4>Genre: <%= @movie.genre %></h4>
+    <h4 style="text-align:left">Synopsis: <%= @movie.synopsis %></h4>
+    <h4>Average Rating: <%= @movie.average_rating %></h4>
+    <h5 style="text-align:center">Number Of Ratings: <%= @movie.number_of_ratings %></h5>
+    <h5>(<em>Movie Id:<%= @movie.id %></em>)</h5>
+    <h2><a href="/movies/<%= @movie.id %>/reviews/new">Add A Review</a></h2>
+  </div>
+</div>
